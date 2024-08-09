@@ -24,6 +24,8 @@ Project is still in the production phase
 
 <img width="1138" alt="image" src="https://github.com/user-attachments/assets/ccf5f5f4-4870-44f0-8f9f-cdfea1becc92">
 
+<img width="1109" alt="image" src="https://github.com/user-attachments/assets/671830c7-6d7e-475c-bd34-0a8ee982edfc">
+
 ##3D-Model
 
 <img width="1085" alt="image" src="https://github.com/user-attachments/assets/fd669dc9-d87f-4db5-8bbb-5a6d566b70a6">
