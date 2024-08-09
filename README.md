@@ -1,8 +1,15 @@
 # Pillducky_STM32F042
 
-This Pillducky is controlled by an STM32F042 microcontroller. 
-I chose this controller because it comes in a WLCSP-36 package and has an internal HSE, eliminating the need for an external one. 
-To save space, the PCB is programmed via test points located on the underside.
+###This Pillducky is powered by an STM32F042 microcontroller, chosen for several key reasons:
+
+- WLCSP-36 Package: The microcontroller comes in a compact WLCSP-36 package, ideal for space-constrained designs.
+- Internal HSE: The internal High-Speed External (HSE) oscillator is crucial for supporting the USB Full Speed (FS) protocol. The inclusion of this internal HSE eliminates the need for an external oscillator, further conserving board space.
+- Programming Method: The PCB is programmed via Serial Wire Debug (SWD) using the STM32CubeIDE. This method provides a streamlined and efficient programming process.
+- Space-Saving Design: To optimize the layout and save space, the PCB features programming test points on the underside, allowing for easy access without occupying additional surface area.
+###USB Protokoll:
+- There are intentionally no 20-ohm termination resistors on the D+ (Dp) and D- (Dn) lines.
+- No pull-up resistor is placed on the D+ line.
+According to the datasheet, these components are already integrated into the USB driver within the microcontroller, making external resistors unnecessary.
 
 ###Warning!
 Project is still in the production phase
